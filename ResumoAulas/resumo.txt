@@ -1,0 +1,8 @@
+CONVERSAO de STRING PARA NUMERO
+    Number(n)
+    Number.parseInt(n) - força ser inteiro
+    Number.parseFloat(n) - força ser real
+
+CONVERSAO de NUMERO PARA STRING
+    String(n);
+    n.toString();
