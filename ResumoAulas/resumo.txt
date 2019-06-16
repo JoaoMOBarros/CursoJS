@@ -16,3 +16,8 @@ MODIFICANDO STRINGS
 MODIFICANDO NUMBERS
     n.toFixed(num) - adapta um float para retornar uma quantidade de casas determinadas
     n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - usado para formatar um numero na forma monetaria de um pais
+
+ORDEM DE PRECEDENCIA DE OPERADORES  
+    Artimeticos
+    Relacionais
+    Lógicos (! --> && --> ||)
