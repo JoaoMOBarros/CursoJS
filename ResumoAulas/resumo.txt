@@ -21,3 +21,12 @@ ORDEM DE PRECEDENCIA DE OPERADORES
     Artimeticos
     Relacionais
     Lógicos (! --> && --> ||)
+    Ternário
+
+ARVORE DOM
+
+
+FORMAS DE REFERNCIAS por QUERY SELECTOR
+    div(esse aqui é a tag) #(para IDs) e . (para Class) msg (nome da marcação)
+    ex: div#msg
+        p.classe
