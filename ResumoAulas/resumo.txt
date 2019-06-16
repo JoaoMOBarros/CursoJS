@@ -6,3 +6,13 @@ CONVERSAO de STRING PARA NUMERO
 CONVERSAO de NUMERO PARA STRING
     String(n);
     n.toString();
+
+MODIFICANDO STRINGS
+    s.length - retorna tamanho
+    s.toLowerCase() - deixa tudo minusculo
+    s.toUpperCase() - deixa tudo maiusculo 
+    s.replace('a', 'b') - troca todos os As por Bs
+
+MODIFICANDO NUMBERS
+    n.toFixed(num) - adapta um float para retornar uma quantidade de casas determinadas
+    n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - usado para formatar um numero na forma monetaria de um pais

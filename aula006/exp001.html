@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: deepskyblue;
+            font:normal 20px Arial;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.alert('Seja Bem vindo ao Lagoon HealthCare!');
+        var nome = window.prompt('Coloque o nome do paciente: ');
+        var idade = Number(window.prompt(`${nome} tem quantos anos?`));
+        var valor = 97.02*idade;
+        valor = valor.toFixed(2);
+        var quantia = valor.toLocaleString('pt-BR', {style: 'currecy', currency: 'BRL'});
+        document.write(`O convênio anual de ${nome} será no valor de ${quantia}`);
+    </script>
+</body>
+</html>
