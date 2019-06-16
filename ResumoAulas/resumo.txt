@@ -30,3 +30,4 @@ FORMAS DE REFERNCIAS por QUERY SELECTOR
     div(esse aqui é a tag) #(para IDs) e . (para Class) msg (nome da marcação)
     ex: div#msg
         p.classe
+    Entes
